@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Group from "./Components/Center.js";
 
 function App() {
+  
   return (
-    <div className="App">
-
+    <div>
+      <Group/>
     </div>
   );
 }
